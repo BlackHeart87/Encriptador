@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link rel="stylesheet" href="reset.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+        
+        </head>
+            <header>
+                <div>
+                   
+                    <img class="alura-icon" src="imagenes/Vector.png" alt="Logo de Alura (letra a)">
+                    <title class="titulo"> Encriptador del Feer </title>
+                </div>
+            </header>
+            <body>
+                <main>
+
+                    <section>
+                            <textarea class="input-texto" cols="40" rows="15" placeholder="Ingrese el mensaje a codificar"></textarea>
+                                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                            </div>
+                        </section>
+                        <section class="mensaje-boton">
+                            <textarea class="mensaje" cols="40" rows="15" placeholder="Esperando mensaje..."></textarea>
+
+                        </section>
+                    </main>
+                <script src="script.js"></script>
+            </body>
+        <footer>
+            <a class="aclaracion">
+                &#9432; Solo minusculas y sin acentos</a>
+        </footer>
+</html>
