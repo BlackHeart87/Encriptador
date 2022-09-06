@@ -57,6 +57,9 @@ main{
     background-color: #E9ECF8;
     position: relative;
     box-shadow: 10px 10px 25px black;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -131,5 +134,14 @@ main{
     display:inline-block;
     color: white;
     width: 100%;
+}
 
+.creditos{
+    text-align: center;
+    font-weight: bold;
+    display:inline-block;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
